@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & input fields</title>
+</head>
+<body>
+    <h1>Interazione con l'utente</h1>
+    <form onsubmit = "alert('Congratulazioni: registrazione inviata!')">
+        <div>
+            <input type = 'text' placeholder="inserisci il tuo nome">
+        </div>
+        <div>
+            <input type = 'text' placeholder="inserisci il tuo cognome">
+        </div>
+        <div>
+            <input type = 'email' placeholder="inserisci la tua email">
+        </div>
+        <div>
+            <input type = 'password' placeholder="inserisci la tua password">
+        </div>
+        <div>
+            <p>inserisci la tua data di nascita</p>
+            <input type ="date">
+        </div>
+        <div>
+            <p>inserisci il tuo numero di telefono</p>
+            <input type = 'number' tel placeholder="inserisci il tuo numero di telefono" style="width:auto;">
+        </div>
+        <div name="gusti musicali">
+            <p>seleziona i tuoi gusti musicali:</p>
+            <input type = 'checkbox' id="rock">
+            <label for="rock">rock</label>
+            <input type = 'checkbox' id = "classica">
+            <label for="classica">classica</label>
+            <input type ='checkbox' id = "country">
+            <label for="country">country</label>
+        </div>
+        <div>
+            <input type = 'radio' id="termini e condizioni">
+            <label>accetta termini e condizioni</label>
+        </div>
+        <button type ='submit'>Invia registrazione</button>
+    </form>
+</body>
+</html>
